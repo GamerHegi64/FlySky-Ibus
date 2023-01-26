@@ -1,2 +1,2 @@
-# FlySky-Ibus
-FlySky Ibus python library for the raspberry pi.
+# FlySky-iBus
+FlySky iBus python library for the raspberry pi.
