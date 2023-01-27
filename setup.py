@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
   name='pyFlySkyiBus',
-  version='0.0.1',    
+  version='1.0.0',    
   description='FlySky iBus python library for the raspberry pi.',
   url='https://github.com/GamerHegi64/FlySky-Ibus',
   author='GamerHegi64',
