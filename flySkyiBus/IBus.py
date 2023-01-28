@@ -1,8 +1,7 @@
 import serial
 import struct
-import time
 
-class iBus:
+class IBus:
   
   IBUS_START = b'\x20'
   IBUS_START_BYTES = [0x20, 0x40]
@@ -26,7 +25,7 @@ class iBus:
   Returns:
     list: unpacked iBus package
   """
-  def read(self) -> list:
+  def read(self) -> tuple:
     data = self.serial.read(32)
     
     while self.validate(data) == False:
@@ -87,7 +86,7 @@ class iBus:
   Returns:
     list: unpacked data
   """
-  def unpack(self, data: list) -> list:
+  def unpack(self, data: tuple) -> tuple:
     if len(data) != 32:
       raise ValueError('Data length must be 32')
     
