@@ -6,14 +6,11 @@ This is a Python package named `flySkyiBus` to communicate with FlySky iBus prot
 
 ## Installation
 
+This package is distributed via PyPi, and can be installed via pip. To install it, you can run:
 
-~~This package is distributed via PyPi, and can be installed via pip. To install it, you can run:~~
-
-<!---
 ```bash
 pip install flySkyiBus
 ```
---->
 
 You can also install directly from the GitHub repository by running:
 
